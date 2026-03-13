@@ -69,8 +69,8 @@ nav li a:hover{
 
 /* --- HERO SECTION (FLEXBOX) --- */
 .hero {
-    margin-top:10px;
-    padding: 100px 8%;
+    margin-top:100px;
+    padding: 80px 8%;
 }
 
 .hero-container {
@@ -145,6 +145,7 @@ nav li a:hover{
     flex: 1;                       /* Takes up 50% width */
     display: flex;                 /* Flex to center image inside its box */
     justify-content: center;
+    margin-top:50px;
 }
 
 .image-wrapper {
@@ -179,4 +180,5 @@ nav li a:hover{
     }
 
 }
+
 
