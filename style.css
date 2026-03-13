@@ -20,8 +20,11 @@ body {
     background: #fff;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     position: fixed;
-    height:80px;
+    top:0;
+    height:100px;
     width:100vw;
+    margin-top:0px
+    
 }
 
 .nav-links {
@@ -67,7 +70,7 @@ nav li a:hover{
 /* --- HERO SECTION (FLEXBOX) --- */
 .hero {
     margin-top:10px;
-    padding: 50px 8%;
+    padding: 100px 8%;
 }
 
 .hero-container {
@@ -176,3 +179,4 @@ nav li a:hover{
     }
 
 }
+
