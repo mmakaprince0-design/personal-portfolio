@@ -16,9 +16,12 @@ body {
     display: flex;                 /* Activates Flexbox */
     justify-content: space-between; /* Space between logo, links, and button */
     align-items: center;            /* Centers items vertically */
-    padding: 20px 8%;
+    padding: 10px 8%;
     background: #fff;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    position: fixed;
+    height:80px;
+    width:100vw;
 }
 
 .nav-links {
@@ -63,7 +66,8 @@ nav li a:hover{
 
 /* --- HERO SECTION (FLEXBOX) --- */
 .hero {
-    padding: 100px 8%;
+    margin-top:10px;
+    padding: 50px 8%;
 }
 
 .hero-container {
@@ -170,4 +174,5 @@ nav li a:hover{
         width: 280px;
         height: 280px;
     }
+
 }
